@@ -1,9 +1,18 @@
 name: "my-website"
 output_dir: docs
 navbar:
-  title: "My Website"
+  title: "Home"
   left:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
+    - text: "RMarkdown"
+      href: rmarkdown.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<you@youremail.com>
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    theme: sandstone
